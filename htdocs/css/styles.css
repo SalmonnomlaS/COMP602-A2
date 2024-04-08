@@ -1,0 +1,133 @@
+/*------------------------------------------------
+------------------GLOBAL STYLES-------------------
+------------------------------------------------*/
+* {
+    border: 0;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+a {
+    text-decoration: none !important;
+}
+/*.preload * {
+    -webkit-transition: none !important;
+    -moz-transition: none !important;
+    -ms-transition: none !important;
+    -o-transition: none !important;
+    transition: none !important;
+}*/
+
+/*------------------------------------------------
+-------------------FONT CLASSES-------------------
+------------------------------------------------*/
+.hind-madurai-light {
+    font-family: "Hind Madurai", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+}
+
+.hind-madurai-regular {
+    font-family: "Hind Madurai", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.hind-madurai-medium {
+    font-family: "Hind Madurai", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
+
+.hind-madurai-semibold {
+    font-family: "Hind Madurai", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+}
+
+.hind-madurai-bold {
+    font-family: "Hind Madurai", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+/*------------------------------------------------
+----------------------NAVBAR----------------------
+------------------------------------------------*/
+.navbar {
+    padding-top: 0px;
+}
+.navbar-brand img {
+    width: 180px;
+}
+.nav-item {
+    font-size: 25px;
+    margin-right: 45px;
+    margin-left: 45px;
+    transition-duration: 0.2s;
+    transition-timing-function: ease-out;
+}
+.nav-item:hover {
+    scale: 1.1;
+}
+.nav-link.active {
+    color: #085F63 !important;
+}
+.nav-item a {
+    font-weight: 600;
+    color: #49BEB7;
+}
+/*------------------------------------------------
+--------------------BTT BUTTON--------------------
+------------------------------------------------*/
+
+/*------------------------------------------------
+-----------------------HOME-----------------------
+------------------------------------------------*/
+.home {
+    background-image: url("/htdocs/assets/home-hero-background-20.jpg");
+    background-size: cover;
+}
+.bigger {
+    font-size: 100px;
+    color: #085F63;
+}
+.lead {
+    line-height: 70px;
+    font-size: 40px !important;
+    font-weight: 500 !important;
+    transition-timing-function: ease;
+    transition-duration: 1.5s;
+}
+.lead a {
+    color: inherit !important;
+    transition-duration: 1s;
+}
+.lead:hover {
+    scale: 1.1;
+}
+.lead a:hover {
+    color: #085F63 !important;
+}
+.mar-r {
+    margin-right: 50px !important;
+}
+@media screen and (max-width: 991px) {
+    .mar-r {
+        margin-right: 0 !important;
+    }
+    .hero-img {
+        margin-top: 0 !important;
+    }
+}
+/*------------------------------------------------
+---------------------SERVICES---------------------
+------------------------------------------------*/
+
+/*------------------------------------------------
+---------------------ABOUT US---------------------
+------------------------------------------------*/
+
+/*------------------------------------------------
+---------------------CONTACT----------------------
+------------------------------------------------*/
