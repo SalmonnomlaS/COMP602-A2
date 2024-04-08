@@ -56,6 +56,10 @@ a {
 ------------------------------------------------*/
 .navbar {
     padding-top: 0px;
+    display: none !important;
+}
+.show-nav {
+    display: flex !important;
 }
 .navbar-brand img {
     width: 180px;
@@ -77,6 +81,39 @@ a {
     font-weight: 600;
     color: #49BEB7;
 }
+/*------------------------------------------------
+--------------------PRE-LOADER--------------------
+------------------------------------------------*/
+.preloader {
+    position: fixed;
+    top: 0;
+    left: 0;
+    background: #FFFFFF;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.hidden {
+    display: none !important;
+}
+@keyframes loading {
+    0% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.1);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
+.preloader img {
+    width: 800px;
+    animation: loading 1.5s infinite;
+}
+
 /*------------------------------------------------
 --------------------BTT BUTTON--------------------
 ------------------------------------------------*/
