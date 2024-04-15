@@ -5,5 +5,5 @@ window.addEventListener("load", () => {
     setTimeout(() => {
         preloader.classList.add("hidden");
         navbar.classList.add("show-nav");
-    }, 2000);
+    }, 0);
 });
