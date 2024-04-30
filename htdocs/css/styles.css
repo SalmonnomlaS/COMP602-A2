@@ -212,6 +212,15 @@ a {
     transition-duration: 1s;
     transition-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1);
 }
+/*.right-border {
+    border-right: 2px dashed #49BEB7;
+}*/
+.bottom-border {
+    border-bottom: 2px dashed #49BEB7;
+}
+.left-border {
+    border-left: 2px dashed #085F63;
+}
 /*------------------------------------------------
 ---------------------CONTACT----------------------
 ------------------------------------------------*/
