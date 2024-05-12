@@ -27,3 +27,25 @@ function backToTop() {
     document.body.scrollTop = 0;
     document.documentElement.scrollTop = 0;
 }
+
+//Form functions
+
+function validateForm() {
+    let name = document.getElementById("fullName").value;
+    let email = document.getElementById("email").value;
+    let message = document.getElementById("message").value;
+
+    if (name == "") {
+        alert("Name field must be filled out");
+    }
+    if (email == "") {
+        alert("Email field must be filled out");
+    }
+    if (message == "") {
+        alert("Message field must be filled out");
+    }
+
+    if (name != "" && email != "" && message != "") {
+        alert("Thank you " + name + ". " + "\nWe have passed on your message:\n\n" + message);
+    }
+}

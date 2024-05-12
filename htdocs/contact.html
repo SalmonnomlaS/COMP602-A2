@@ -58,23 +58,22 @@
             <div id="contact-form" class="col">
               <h2>Contact Form</h2>
               <div class="row mb-3">
-                
                 <div class="col-sm-10">
-                  <input type="text" class="form-control" id="colFormLabel" placeholder="Name">
+                  <input type="text" class="form-control" id="fullName" placeholder="Name">
                 </div>
               </div>
               <div class="row mb-3">
                 <div class="col-sm-10">
-                  <input type="email" class="form-control" id="colFormLabel" placeholder="Email">
+                  <input type="email" class="form-control" id="email" placeholder="Email">
                 </div>
               </div>
               <div class="row mb-3">
                 <div class="col-sm-10">
-                  <input type="email" class="form-control" id="colFormLabel" placeholder="Message">
+                  <input type="text" class="form-control" id="message" placeholder="Message">
                 </div>
               </div>
               <div class="col-auto">
-                <button type="submit" class="btn btn-primary">Send</button>
+                <button type="submit" class="btn btn-primary" onclick=validateForm()>Send</button>
               </div>
             </div>
           </div>
