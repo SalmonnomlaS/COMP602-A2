@@ -1,3 +1,4 @@
+//------------Preloader-------------
 const preloader = document.querySelector(".preloader");
 const navbar = document.querySelector(".navbar");
 
@@ -8,7 +9,7 @@ window.addEventListener("load", () => {
     }, 0);
 });
 
-
+//--------Back to top button--------
 let button = document.getElementById("topBtn");//Get button ID
 
 window.onscroll = function() {scrollFunction()};
