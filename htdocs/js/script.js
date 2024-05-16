@@ -36,17 +36,21 @@ function validateForm() {
     let email = document.getElementById("email").value;
     let message = document.getElementById("message").value;
 
-    if (name == "") {
+    let emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+
+    if (name === "") {
         alert("Name field must be filled out");
     }
-    if (email == "") {
+    else if (email === "") {
         alert("Email field must be filled out");
     }
-    if (message == "") {
+    else if (!emailRegex.test(email)) {
+        alert("Invalid email format.\nTry again")
+    }
+    else if (message === "") {
         alert("Message field must be filled out");
     }
-
-    if (name != "" && email != "" && message != "") {
+    else{
         alert("Thank you " + name + ". " + "\nWe have passed on your message:\n\n" + message);
     }
 }
