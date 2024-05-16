@@ -226,4 +226,34 @@ a {
 ------------------------------------------------*/
 #contact-form {
     padding-top: 100px;
+    /*padding-left: 50px;*/
+}
+#message {
+    height: 100px;
+}
+/* Social Media Icons */
+.social-icons {
+    position: fixed;
+    bottom: 20px;
+    left: 20px;
+}
+.social-icons a {
+    display: inline-block;
+    margin-right: 10px;
+}
+.icon-facebook img {
+    width: 40px;
+    height: 40px;
+    transition: transform 0.4s ease;
+}
+.icon-instagram img {
+    width: 40px;
+    height: 40px;
+    transition: transform 0.4s ease;
+}
+.icon-facebook:hover img {
+    transform: scale(1.2);
+}
+.icon-instagram:hover img {
+    transform: scale(1.2);
 }
