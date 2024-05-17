@@ -6,7 +6,7 @@ window.addEventListener("load", () => {
     setTimeout(() => {
         preloader.classList.add("hidden");
         navbar.classList.add("show-nav");
-    }, 150);
+    }, 1500);
 });
 
 //--------Back to top button--------
