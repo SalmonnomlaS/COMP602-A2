@@ -12,10 +12,10 @@ window.addEventListener("load", () => {
 //Back to top button
 let button = document.getElementById("topBtn");//Get button ID
 
-window.onscroll = function() {scrollFunction()};
+window.onscroll = function() {scrollFunction(button)};
 
 //Display the button when not at top of page
-function scrollFunction() {
+function scrollFunction(button) {
     if (document.documentElement.scrollTop > 20 || document.body.scrollTop > 20) {
         button.style.display = "block";
     }
