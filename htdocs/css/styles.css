@@ -154,7 +154,7 @@ body {
 -----------------------HOME-----------------------
 ------------------------------------------------*/
 .home {
-    background-image: url("/htdocs/assets/home-hero-background-20.jpg");
+    background-image: url("../assets/home-hero-background-20.jpg");
     background-size: cover;
 }
 .bigger {
@@ -214,7 +214,7 @@ body {
 ------------------------------------------------*/
 .hero-wrapper {
     height: 100%;
-    background-image: url("/htdocs/assets/services-hero.jpg");
+    background-image: url("../assets/services-hero.jpg");
     background-size: cover;
 }
 .hero-wrapper p {
